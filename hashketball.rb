@@ -1,5 +1,11 @@
 require "pry"
 
+def good_practices
+  game_hash.each do |location, team_data|
+    binding.pry
+  end
+end
+
 def game_hash
   game = {
     :home => {
